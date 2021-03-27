@@ -1,0 +1,24 @@
+<form action="/data" method = "POST">
+    <p>Company of interest <input type = "text" name = "Name" /></p>
+    <p> Sector
+    <input list="sectors" name="sector">
+    <datalist id="sectors">
+      <option value="Basic Industries">
+      <option value="Capital Goods">
+      <option value="Consumer Durables">
+      <option value="Consumer Non-Durables">
+      <option value="Consumer Services">
+      <option value="Energy">
+      <option value="Finance">
+      <option value="Health Care">
+      <option value="Miscellaneous">
+      <option value="Public Utilities">
+      <option value="Technology">
+      <option value="Transporation">
+    </datalist>
+  </p>
+    <p>Offering Price <input type = "number" name = "Price" /></p>
+    <p>Shares issued <input type = "number" name = "Shares" /></p>
+    <p>IPO Month <input type = "month" name = "Month" /></p>
+    <p><input type = "submit" value = "Submit" /></p>
+</form>
