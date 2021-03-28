@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+<title> mIPO </title>
+<link rel = "shortcut icon" type = 'image/png' href = 'https://cdn2.iconfinder.com/data/icons/business-and-finance-3-7/128/134-512.png'>
+</head>
+
+<style>
+body {
+    text-align: center;
+    background-color: coral;
+}
+form {
+    display: inline-block;
+}
+div {
+
+}
+</style>
+<title> mIPO </title>
+
+<h1> 
+  Here's the scoop we have for you...
+</h1>
+
+<p>
+	{% for para in text %}
+	    <p>{{para}}</p>
+	{% endfor %}
+</p>
+
+<form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>

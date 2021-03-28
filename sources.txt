@@ -1,0 +1,5 @@
+Sources used
+
+For our sentiment analysis, we used code from this link https://github.com/krishnaik06/Stock-Sentiment-Analysis/blob/master/Stock%20Sentiment%20Analysis.ipynb to build/train a sentiment analysis model. 
+
+We also used code from this tutorial https://medium.com/analytics-vidhya/googlenews-api-live-news-from-google-news-using-python-b50272f0a8f0 to scrape Google news.
